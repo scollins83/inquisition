@@ -15,6 +15,5 @@ class TestInquisition(unittest.TestCase):
         blank_schema = inq.create_title_and_text_schema(analyzer='Stemming')
         self.assertListEqual(blank_schema.names(), ['text', 'title'])
 
-
 if __name__ == '__main__':
     unittest.main()
