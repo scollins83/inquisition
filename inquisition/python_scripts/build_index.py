@@ -5,14 +5,6 @@ import whoosh.index
 import argparse
 import sys
 
-"""
-# Get the file list
-text_path = '../tests/artifacts/data/king_arthur/*.txt'
-analyzer_type = 'Stemming'
-index_path = '/Users/saracollins/PycharmProjects/inquisition/inquisition/tests/artifacts/data/king_arthur_idx'
-index_name = 'arthur'
-"""
-
 
 def parse_args(args):
     """
@@ -63,3 +55,12 @@ def build_index():
 
 if __name__ == '__main__':
     build_index()
+
+
+"""
+# Get the file list
+text_path = '../tests/artifacts/data/king_arthur/*.txt'
+analyzer_type = 'Stemming'
+index_path = '/Users/saracollins/PycharmProjects/inquisition/inquisition/tests/artifacts/data/king_arthur_idx'
+index_name = 'arthur'
+"""
